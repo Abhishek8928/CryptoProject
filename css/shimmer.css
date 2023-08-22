@@ -1,0 +1,36 @@
+
+.shimmer{
+    width:26rem;
+    background-color: var(--white);
+    margin-bottom: 1.8rem;
+}
+.shimmer-top{
+    padding:0.8rem 1rem;
+    border-bottom: 0.2rem solid var(--light-white);
+}
+.shimmer-top > h2{
+    height:3.2rem;
+    width:16rem;
+    background-color: var(--light-white);
+}
+.shimmer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding:2rem 1rem;
+}
+.shimmer-bottom > div{
+    width:100%;
+    height:3vh;
+    background-color: var(--light-white);
+    margin-bottom: 1.2rem;
+}
+
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(43, 212, 119);
+    border-radius: 1.2rem;
+}
